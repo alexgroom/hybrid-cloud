@@ -47,6 +47,9 @@ body {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.8);
     text-rendering: optimizeLegibility;
+    background-image: url(https://raw.githubusercontent.com/alexgroom/hybrid-cloud/main/frontend/src/main/resources/META-INF/resources/world2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 code,
@@ -55,9 +58,10 @@ pre {
 }
 
 h1 {
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 400;
     margin-bottom: 2em;
+    color: red;
 }
 
 h2 {
@@ -329,6 +333,7 @@ span.placeholder {
     overflow: auto;
     padding: 0.2em 0.4em;
     border: 1px solid #ccc;
+    background-color: #212121;
 }
 
 #responses > .response > .worker {
@@ -349,6 +354,7 @@ span.placeholder {
 
 #workers {
     width: 100%;
+    background-color: #212121;
 }
 
 #workers th:nth-child(3),
