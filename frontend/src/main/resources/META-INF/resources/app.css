@@ -45,7 +45,7 @@ br {
 body {
     font: 13pt/19pt "Source Sans Pro", sans-serif;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     text-rendering: optimizeLegibility;
     background-image: url(https://raw.githubusercontent.com/alexgroom/hybrid-cloud/main/frontend/src/main/resources/META-INF/resources/world2.png);
     background-repeat: no-repeat;
