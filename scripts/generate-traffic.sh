@@ -6,7 +6,7 @@ count=1
 while true; do 
     curl -s -H "Content-Type: application/json" \
         -X POST \
-        -d'{"text": "World", "uppercase": false, "reverse": false}' \
+        -d'{"text": "Welcome to devNation Labs", "uppercase": false, "reverse": false}' \
         ${url}
     echo "Message ${count} Sent..."
     count=$(($count + 1))
